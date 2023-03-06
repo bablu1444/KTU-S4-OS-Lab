@@ -1,0 +1,12 @@
+
+echo "Enter option: 1.Date 2.Mnth"
+read n 
+case $n in 
+1)
+'
+;;
+2)
+echo 'cal'
+;;
+*)echo  "Wrong option"
+esac
